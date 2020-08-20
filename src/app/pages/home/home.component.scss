@@ -1,0 +1,74 @@
+body {
+        background-size: 100% 100%;
+        height: 100%;
+        margin-top: 30px;
+  }
+.img-slider{
+      width: 100%;
+      height: 450px;
+}
+.img-div{
+      background-image: url(../../../assets/img/GSwD.png);
+      background-repeat: no-repeat;
+      height: 500px;
+      width: 100%;
+}
+.see-more{
+      color: white;
+}
+.mt-20{
+      margin-top: 46px;
+}
+.forth-section{
+      background-color: #F9F9F9;
+      padding-top: 15px;
+}
+.forth-section-hr{
+margin-top: 1rem;
+margin-bottom: 0px;
+border: 0;
+border-top: 1px solid rgba(0,0,0,.1);
+}
+footer{
+      position: relative;
+      height: auto;
+      margin-top: 30px;
+
+}
+.right-final{
+      border: 1px yellow solid;
+      height: 300px;
+      font-size: 21px;
+      line-height: 29px;
+      padding-right: 15px;
+      background-color: rgb(235, 225, 206);
+      position: absolute;
+      left: 65%;
+      z-index: 10;
+}
+.right-final p {
+      float: right;font-family: Helvetica_Neue_ExtraLight !important;
+   
+}
+.right-final .form-group{
+      float: right
+}
+.right-final .form-group input{
+      float: right !important  
+}
+.second-sec-foo{
+      background-color: #2A2D25;
+      max-width: 100% !important;
+      color: white;
+      float: right !important  
+
+}
+.second-sec-foo li{
+      list-style: none;
+
+}
+.second-sec-foo h1{
+      text-align: center;
+      font-family: Helvetica_Neue_ExtraLight !important;
+}
+

@@ -1,0 +1,206 @@
+<ngb-carousel *ngIf="images" class="carousel">
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[0]" class="img-slider" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[1]" class="img-slider" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+            <img [src]="images[2]" class="img-slider" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+    </ng-template>
+</ngb-carousel>
+<div class="container">
+    <div class="row mt-20">
+        <div class="col-md-8 col-xs-12 third-section">
+
+            <h1 style="float:right;     font-size: 36px;
+            font-family: Helvetica_Neue_ExtraLight !important;">
+                جمعية اليقظة النسائية الخيرية
+            </h1>
+            <p style="float:right; font-size: 20px;line-height: 27px; ">
+                جمعيه اليقظه النسائيه الخيريه بالطائف هذه المؤسسه الاجتماعيه الرائده هي إحدى معالم مدينه الطائف وتعتبر
+                أول جميعه خيريه بمنطقه الطائف سبقت جميع الجمعيات الخيريه والنسائيه والرجاليه في التأسيس , وثاني جمعيه
+                بالمنطقه الغربيه بعد جمعيه جده النسائيه وثالث جمعيه خيريه على نطاق المملكه العربيه السعوديه الواسعه
+                الشاسعه
+                تأسست قبل (خمسون عاما) على يد نخبه من الرائدات المتطوعات من بنات الطائف حيث كانت فكره هذه النخبه هي
+                تعليم الفتيات والنساء في ذلك الوقت أمور دينهن وتحفيظهن القران الكريم ومبادى القراءه والكتابه وأسس
+                التفصيل والخياطه وذلك قبل بدأ التعليم الرسمي للبنات بالمملكه وأنشاء المدارس وقيام الرئاسه العامه لتعليم
+                البنات
+            </p>
+            <button class="btn btn-lg see-more" style="background-color: #4B6D23;float:right;">اعرض المزيد</button>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <div class=" img-div">
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<hr class="forth-section-hr">
+
+<div class="row">
+    <div class="col-md-12 col-xs-12 forth-section" style="margin-bottom: 40px;">
+        <h1 class="text-center" style="   font-size: 36px;
+                font-family: Helvetica_Neue_ExtraLight !important;">
+            الشركاء </h1>
+    </div>
+</div>
+<div class="container">
+    <div class="row" style="margin-bottom: 40px;">
+        <div class="col-md-4 col-xs-12">
+            <img src="../../../assets/img/وظائف-المؤسسة-العامة-للتدريب-التقني-والمهني-825x510.png">
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <img src="../../../assets/img/1280px-شعار_وزارة_العمل_والتنمية_الاجتماعية_السعودية.svg.png">
+
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <img src="../../../assets/img/1280px-MOELogo.svg.png">
+        </div>
+    </div>
+</div>
+<hr class="forth-section-hr">
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-xs-12 final-section" style="margin-bottom: 30px;">
+
+                <h1 style="float:right;     font-size: 36px;
+                    font-family: Helvetica_Neue_ExtraLight !important;">
+                    القائمة البريدية </h1>
+                <p style="float:right; font-size: 20px;line-height: 27px; ">
+                    دخل بريدك الإلكتروني لتصلك أحدث الأخبار والمستجدات عن برامج ومشاريع الجمعية
+                </p>
+                <input type="text" class="form-control" style="float:right; max-width: 300px;"
+                    placeholder="البريد الإلكتروني">
+
+                <button class="btn  see-more" style="background-color: #4B6D23;float:right;">اشترك الان</button>
+            </div>
+            <div class="col-md-4 col-xs-12 right-final">
+                <div class="">
+                    <h1 style="font-family: Helvetica_Neue_ExtraLight !important;  text-align: center; ">
+                        رأيك يهمنا
+                    </h1>
+                    <p>
+                        ما هو انطباعك حول الخدمات التي تقدمها الجمعية للمستفيدين؟
+                    </p>
+                    <div class="form-group">
+
+                        <div>
+                            <label for="huey">راض تماما</label>
+                            <input type="radio" id="huey" name="drone" value="1" checked>
+                        </div>
+
+                        <div>
+                            <label for="dewey">راض</label>
+                            <input type="radio" id="dewey" name="drone" value="2">
+                        </div>
+
+                        <div>
+                            <label for="louie">غير راض</label>
+                            <input type="radio" id="louie" name="drone" value="3">
+                        </div>
+
+                    </div>
+                    <button class="btn btn-block see-more" style="background-color: #4B6D23;float:right;">قم بالتصويت الان</button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 second-sec-foo">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    <h1>
+                                    معلومات التواصل
+                                </h1>
+                            </li>
+                            <li>
+                                العنوان : المملكة العربية السعودية - الطائف - حي المثناه - شارع محمد بن عبد الوهاب
+
+                            </li>
+                            <li>
+                                الهاتف : 0127323423
+
+                            </li>
+                            <li>
+                                الجوال : 0559681179
+
+                            </li>
+                            <li>
+                                لبريد الإلكتروني
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    <h1>
+                                    معلومات التواصل
+                                </h1>
+                            </li>
+                            <li>
+                                العنوان : المملكة العربية السعودية - الطائف - حي المثناه - شارع محمد بن عبد الوهاب
+
+                            </li>
+                            <li>
+                                الهاتف : 0127323423
+
+                            </li>
+                            <li>
+                                الجوال : 0559681179
+
+                            </li>
+                            <li>
+                                لبريد الإلكتروني
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <p class="text-center" style="color: black; background-color: #E8CA67;     border-radius: 5%;">
+                            جميع الحقوق محفوظة لجمعيه اليقظه النسائيه الخيريه 2020
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+</footer>

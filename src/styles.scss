@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+// regular style toast 
+@import '~ngx-toastr/toastr';
+ 
+// bootstrap style toast 
+// or import a bootstrap 4 alert styled design (SASS ONLY) 
+// should be after your bootstrap imports, it uses bs4 variables, mixins, functions 
+// @import '~ngx-toastr/toastr-bs4-alert';
+ 
+// if you'd like to use it without importing all of bootstrap it requires 
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~ngx-toastr/toastr-bs4-alert';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Helvetica_Neue_ExtraLight !important;}
+h1{
+    font-family: Helvetica_Neue_ExtraLight
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+// @import "assets/fonts/Cairo-Black.ttf";
+// @import "../assets/fonts/Cairo-Bold.ttf";
+// @import "../assets/fonts/Cairo-Light.ttf";
+// @import "../assets/fonts/Cairo-Regular.ttf";
+// @import "../assets/fonts/Cairo-SemiBold.ttf";
+@font-face {
+    font-family:Helvetica_Neue_ExtraLight ;
+    src: url(./assets/fonts/Cairo-ExtraLight.ttf) ;
+
+}
+
+//scroll bar
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#4B6D23;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4B6D23;
+  }
